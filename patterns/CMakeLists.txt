@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 project(patterns)
 
 add_subdirectory(decorator)
+add_subdirectory(composite)
