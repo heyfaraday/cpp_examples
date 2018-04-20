@@ -9,3 +9,15 @@
 * Add your own features :)
 
 ### Composite pattern ([wiki](https://en.wikipedia.org/wiki/Composite_pattern))
+
+### Specification pattern ([wiki](https://en.wikipedia.org/wiki/Specification_pattern))
+* Simple filtering solution is
+  * Too difficult to maintain, violates OCP
+  * Not flexible enough
+* Abstract away the specification interface
+  * bool is_satisfied_by(T something)
+* Abstract away the idea of filtering
+  * Input items + specification -> set of filtered items
+* Create combinations (e.g., AndSpecification) for combining multiple specifications
+
+### Builder pattern ([wiki](https://en.wikipedia.org/wiki/Builder_pattern))

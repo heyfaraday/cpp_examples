@@ -6,3 +6,5 @@ project(patterns)
 
 add_subdirectory(decorator)
 add_subdirectory(composite)
+add_subdirectory(specification)
+add_subdirectory(builder)
